@@ -1,0 +1,167 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 20px;
+    text-align: center;
+}
+
+* input{
+    text-align: left;
+}
+
+#Info p{
+    display: inline;
+    caret-color: transparent;
+    margin-bottom: 9px;
+}
+
+#P2{
+    margin-right: 175px;
+    margin-left: 220px;
+}
+
+#P3{
+    margin-right: 190px;
+}
+
+#P5{
+    margin-right: 245px;
+    margin-left: 235px;
+}
+
+#P6{
+    margin-right: 187px;
+}
+
+#P8{
+    margin-right: 237px;
+    margin-left: 240px;
+}
+
+#P9{
+    margin-right: 180px;
+}
+
+#P11{
+    margin-left: 210px;
+    margin-right: 225px;
+    
+}
+
+#P12{
+    margin-right: 205px;
+}
+
+#P14{
+    margin-left: 195px;
+    margin-right: 215px;
+}
+
+#P15{
+    margin-right: 140px;
+}
+
+#Info input{
+    display: inline;
+    margin: 0px 10px;
+    margin-bottom: 30px;
+    caret-color: transparent;
+}
+
+#X1{
+    display: block;
+    margin: 220px 400px;
+    text-align: center;
+}
+
+#X2{
+    display: none;
+    margin: 220px 400px;
+}
+
+#X3{
+    display: none;
+    margin: 220px 500px;
+}
+
+#A1{
+    display: block;
+}
+
+#A1 input,#X2 input,#X3 input{
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#A1 h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(0, 119, 255);
+    caret-color: transparent;
+}
+
+#A2{
+    display: none;
+}
+
+#Box1{
+    margin-top:20px;
+}
+
+#Procurar1,#Mudar_Senha,#Cadastrar,#Continuar{
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    caret-color: transparent;
+    text-align: center;
+}
+
+#Resetar,#Mudar,#Pagina_Cadastro,#Voltar_Mudar,#Resetar2,#Voltar{
+    border: 0px;
+    background: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: underline black;
+    caret-color: transparent;
+}
+
+#Boas_Vindas{
+    text-align: left;
+    margin-left: 130px;
+    caret-color: transparent;
+}
+
+
+
+#X3 h2,#X2 h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgb(0, 119, 255);
+    caret-color: transparent;
+}
+
+#Box4{
+    width: 252px;
+    display: inline-block;
+}
+
+#B2{
+    width: 510px;
+}
+
+#Data_Cadastro{
+    width: 246px;
+}
+
+#Experiencia_Cadastro{
+    margin-left: 48px;
+}
+

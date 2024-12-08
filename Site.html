@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="Site.js"></script>
+        <link rel="stylesheet" href="Site.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form id="X1">
+            <div id="A1">
+                <div>
+                    <h2>Login</h2>
+                </div>
+                <div>
+                    <input type="number" id="Codigo1" placeholder="Digite seu codigo" maxlength="5" minlength="3">
+                </div>
+                <div>
+                    <input type="password" id="Senha1" placeholder="Digite sua senha" minlength="4">
+                </div>
+                <div>
+                    <input type="button" id="Procurar1" value="Procurar">
+                </div>
+            </div>
+            <div id="A2">
+                <div id="Info">
+                    <div>
+                        <h2 id="Boas_Vindas"></h2>
+                    </div>
+                    <div id="Box1">
+                        <div>
+                            <p id="P1">Nome</p><p id="P2">Sobrenome</p><p id="P3">Idade</p>
+                        </div>
+                        <div>
+                            <input type="text"  id="Nome" placeholder="Nome" readonly>
+                            <input type="text" id="Sobrenome" placeholder="Sobrenome" readonly>
+                            <input type="text" id="Idade" placeholder="Idade" readonly>
+                        </div>
+                        <div>
+                            <p id="P4">Data</p><p id="P5">Cpf</p><p id="P6">E-mail</p>
+                        </div>
+                        <div>
+                            <input type="text" id="Data" placeholder="Data de Nascimento" readonly>
+                            <input type="text" id="Cpf" placeholder="Cpf" readonly>
+                            <input type="email" id="Email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" readonly>
+                        </div> 
+                    </div>
+                    <div id="Box2">
+                        <div>
+                            <p id="P7">Cep</p><p id="P8">Pais</p><p id="P9">Estado</p>
+                        </div>
+                        <div>
+                            <input type="text" id="Cep" placeholder="Cep" readonly>
+                            <input type="text" id="Pais" placeholder="Pais" readonly>
+                            <input type="text" id="Estado" placeholder="Estado" readonly>
+                        </div>
+                        <div>
+                            <p id="P10">Cidade</p><p id="P11">Bairro</p><p id="P12">Rua</p>
+                        </div>
+                        <div>
+                            <input type="text" id="Cidade" placeholder="Cidade" readonly>
+                            <input type="text" id="Bairro" placeholder="Bairro" readonly>
+                            <input type="text" id="Rua" placeholder="Rua" readonly>
+                        </div>
+                    </div>
+                    <div id="Box3">
+                        <div>
+                            <p id="P13">Profissao</p><p id="P14">Salario</p><p id="P15">Experiencia</p>
+                        </div>
+                        <div>
+                            <input type="text" id="Profissao" placeholder="Profissao" readonly>
+                            <input type="text" id="Salario" placeholder="Salario" readonly>
+                            <input type="text" id="Experiencia" placeholder="Experiencia" readonly>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <p id="Console"></p>
+            </div>
+            <div>
+                <input type="button" id="Resetar" value="Resetar">
+            </div>
+            <div>
+                <input type="button" id="Mudar" value="Mudar Senha">
+            </div>
+            <div>
+                <input type="button" id="Pagina_Cadastro" value="Cadastrar">
+            </div>
+        </form>
+        <form id="X2">
+            <div id="B1">
+                <div>
+                    <h2>Cadastro de Usuario</h2>
+                </div>
+                <div>
+                    <input type="number" id="Codigo2" placeholder="Digite seu codigo" maxlength="5" minlength="3">
+                </div>
+                <div>
+                    <input type="password" id="Senha2" placeholder="Digite sua senha" minlength="4">
+                </div>
+                <div>
+                    <input type="password" id="Senha3" placeholder="Confirme sua senha" minlength="4">
+                </div>
+                <div>
+                    <input type="button" id="Continuar" value="Continuar">
+                </div>
+            </div>
+            <div id="B2">
+                <div>
+                    <h2>Cadastro de Usuario</h2>
+                </div>
+                <div id="Box1">
+                    <input type="text"  id="Nome_Cadastro" placeholder="Nome">
+                    <input type="text" id="Sobrenome_Cadastro" placeholder="Sobrenome">
+                    <input type="text" id="Idade_Cadastro" placeholder="Idade" min="18">
+                    <input type="date" id="Data_Cadastro" placeholder="Data de Nascimento" max="2005-01-01" min="1923-01-01">
+                    <input type="number" id="Cpf_Cadastro" placeholder="Cpf" max="99999999999">
+                    <input type="email" id="Email_Cadastro" placeholder="Email" required>
+                </div>
+                <div id="Box2">
+                    <input type="text" id="Cep_Cadastro" placeholder="Cep" min="8" max="8">
+                    <input type="text" id="Pais_Cadastro" placeholder="Pais" readonly>
+                    <input type="text" id="Estado_Cadastro" placeholder="Estado" readonly>
+                    <input type="text" id="Cidade_Cadastro" placeholder="Cidade" readonly>
+                    <input type="text" id="Bairro_Cadastro" placeholder="Bairro" readonly>
+                    <input type="text" id="Rua_Cadastro" placeholder="Rua" readonly>
+                </div>
+                <div id="Box3">
+                    <input type="text" id="Profissao_Cadastro" placeholder="Profissao">
+                    <input type="text" id="Salario_Cadastro" placeholder="Salario">
+                    <input type="number" id="Experiencia_Cadastro" placeholder="Experiencia"> anos
+                </div>
+            </div>
+            <div>
+                <input type="button" id="Cadastrar" value="Cadastrar">
+            </div>
+            <div>
+                <p id="Console2"></p>
+            </div>
+            <div>
+                <input type="button" id="Resetar2" value="Resetar">
+            </div>
+            
+            <div>
+                <input type="button" id="Voltar" value="Voltar">
+            </div>
+        </form>
+        <form id="X3">
+            <div>
+                <h2>Redifinição de Senha</h2>
+            </div>
+            <div id="Box4">
+                <input type="number" id="Codigo_Mudar" placeholder="Digite seu Codigo">
+                <input type="password" id="Senha_Mudar" placeholder="Digite sua senha antiga">
+                <input type="password" id="Senha_Cmudar" placeholder="Digite sua senha nova">
+            </div>
+            <div>
+                <input type="button" id="Mudar_Senha" value="Mudar">
+            </div>
+            <div>
+                <p id="Console3"></p>
+            </div>
+            <div>
+                <input type="button" id="Voltar_Mudar" value="Voltar">
+            </div>
+        </form>
+    </body>
+</html>
